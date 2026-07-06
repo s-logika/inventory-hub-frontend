@@ -64,7 +64,7 @@ export function RegisterForm({ className, ...props }: React.ComponentProps<"form
         <Input
           id="email"
           type="email"
-          placeholder="m@example.com"
+          placeholder="logi@example.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
